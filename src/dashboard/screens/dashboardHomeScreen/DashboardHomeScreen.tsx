@@ -20,16 +20,11 @@ export const DashboardHomeScreen = () => {
     <Page isError={isError} isLoading={isLoading} onRetry={refetch}>
       <View style={styles.holdingsContainer}>
         <FlashList
-          data={
-            [
-              ...(data?.data?.userHolding ?? []),
-              ...(data?.data.userHolding ?? []),
-            ] ?? []
-          }
+          data={data?.data?.userHolding ?? []}
           contentContainerStyle={styles.holdignsContentContainer}
           renderItem={({item}) => <DashboardHolding holding={item} />}
           keyExtractor={keyExtractor}
-          estimatedItemSize={73.6}
+          estimatedItemSize={73}
         />
       </View>
 
