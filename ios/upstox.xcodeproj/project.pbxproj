@@ -83,9 +83,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1380B91C2B9D98C1004C27B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* upstox */ = {
 			isa = PBXGroup;
 			children = (
+				1380B91C2B9D98C1004C27B3 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
